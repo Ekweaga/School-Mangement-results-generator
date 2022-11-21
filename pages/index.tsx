@@ -3,6 +3,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Navbar from "./components/Navbar"
 import Footer from "./components/Footer"
+import Link from "next/link"
 
 
 export default function Home() {
@@ -113,7 +114,7 @@ export default function Home() {
             <p>Enroll for a new admission at scholax for a better learning environs</p>
 
             <div className="mt-[20px]">
-          <button className="bg-[#FF6551] text-white p-2 shadow w-[150px] rounded-sm">Join us</button>
+          <button className="bg-[#FF6551] text-white p-2 shadow w-[150px] rounded-sm"><Link href="signup">Join us</Link></button>
         </div>
           </div>
         </div>
@@ -198,7 +199,7 @@ export default function Home() {
         <p className="text-center md:w-[450px] text-sm mt-[15px]">Match your goals to your programs, explore your options, and map out your path to success.</p>
         
         <div className="mt-[20px]">
-          <button className="bg-[#FF6551] text-white p-2 shadow w-[150px] rounded-sm">Join us</button>
+        <button className="bg-[#FF6551] text-white p-2 shadow w-[150px] rounded-sm"><Link href="signup">Join us</Link></button>
         </div>
       </div>
      </div>
@@ -342,7 +343,7 @@ export default function Home() {
           
             <input type="email" placeholder="info@gmail.com" className="p-2 shadow w-[350px]"/>
             <div className="">
-          <button className="bg-[#FF6551] text-white p-2 shadow w-[100px] rounded-sm">Join us</button>
+            <button className="bg-[#FF6551] text-white p-2 shadow w-[150px] rounded-sm"><Link href="signup">Join us</Link></button>
         </div>
           </div>
         </div>

@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from "next/link"
 
 function Navbar() {
   return (
@@ -22,7 +23,7 @@ function Navbar() {
             </ul>
         </div>
         <div className='hidden md:block'>
-        <button className="bg-[#FF6551] text-white p-2 shadow w-[100px] rounded-sm">Login</button>
+        <button className="bg-[#FF6551] text-white p-2 shadow w-[100px] rounded-sm"><Link href="login">Login</Link></button>
         </div>
 
     </nav>
